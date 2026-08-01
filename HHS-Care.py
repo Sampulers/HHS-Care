@@ -128,6 +128,13 @@ def build_dashboard(df: pd.DataFrame) -> None:
         repo_root / "logo.png",
         repo_root / "assets" / "logo.png",
     ]
+    # Fallback to SVG if no PNG is present
+    svg_candidates = [
+        repo_root / "logo.svg",
+        repo_root / "assets" / "logo.svg",
+    ]
+    if logo_path is None:
+        logo_path = next((path for path in svg_candidates if path.exists()), None)
     logo_path = next((path for path in logo_candidates if path.exists()), None)
 
     header_col1, header_col2 = st.columns([0.45, 9.55], vertical_alignment="center")
