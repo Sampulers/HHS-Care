@@ -4,10 +4,10 @@ This repository contains a Streamlit dashboard for exploring care-transition and
 
 ## Project structure
 
-- [HHS-Care/app.py](HHS-Care/app.py) — the main dashboard app
+- [HHS-Care.py](HHS-Care.py) — the main dashboard app
 - [processed_dataset_with_new_columns.csv](processed_dataset_with_new_columns.csv) — the processed dataset used by the dashboard
 - [HHS_Unaccompanied_Alien_Children_Program.csv](HHS_Unaccompanied_Alien_Children_Program.csv) — the source data file
-- [HHS-Care/requirements.txt](HHS-Care/requirements.txt) — Python dependencies
+- [requirements.txt](requirements.txt) — Python dependencies
 
 ## Setup
 
@@ -16,10 +16,10 @@ This repository contains a Streamlit dashboard for exploring care-transition and
    - `.venv\Scripts\activate`
 
 2. Install dependencies:
-   - `pip install -r HHS-Care/requirements.txt`
+   - `pip install -r requirements.txt`
 
 3. Run the app:
-   - `streamlit run HHS-Care/app.py`
+   - `streamlit run HHS-Care.py`
 
 4. Optional environment variables:
    - Copy [.env.example](.env.example) to [.env](.env) and update any local values you need.
