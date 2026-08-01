@@ -123,19 +123,16 @@ def render_kpi_card(title: str, value: str, subtitle: str, color: str) -> None:
 def build_dashboard(df: pd.DataFrame) -> None:
     st.set_page_config(page_title="HHS Care Analytics", page_icon="📊", layout="wide")
     repo_root = Path(__file__).resolve().parent
+    image_root = repo_root / "IMAGE"
     logo_candidates = [
-        repo_root / "HHS-logo.png",
-        repo_root / "logo.png",
-        repo_root / "assets" / "HHS-logo.png",
-        repo_root / "assets" / "logo.png",
+        image_root / "HHS-logo.png",
+        image_root / "logo.png",
     ]
     # Fallback to SVG if no PNG is present
     svg_candidates = [
-        repo_root / "logo.svg",
-        repo_root / "assets" / "logo.svg",
+        image_root / "logo.svg",
     ]
     # prefer PNG candidates first
-    logo_path = None
     logo_path = next((path for path in logo_candidates if path.exists()), None)
     if logo_path is None:
         logo_path = next((path for path in svg_candidates if path.exists()), None)

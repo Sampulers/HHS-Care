@@ -8,6 +8,7 @@ This repository contains a Streamlit dashboard for exploring care-transition and
 - [processed_dataset_with_new_columns.csv](processed_dataset_with_new_columns.csv) — the processed dataset used by the dashboard
 - [HHS_Unaccompanied_Alien_Children_Program.csv](HHS_Unaccompanied_Alien_Children_Program.csv) — the source data file
 - [requirements.txt](requirements.txt) — Python dependencies
+- `IMAGE/` — image assets and logo files used by the dashboard
 
 ## Setup
 
@@ -25,7 +26,7 @@ This repository contains a Streamlit dashboard for exploring care-transition and
    - Copy [.env.example](.env.example) to [.env](.env) and update any local values you need.
    - The app does not require secrets to run locally, but this keeps private settings out of the repository.
 
-Logo: place a PNG logo named `HHS-logo.png` at the repository root or in an `assets/` folder. The app will prefer `HHS-logo.png` when rendering the header.
+Logo: place a PNG logo named `HHS-logo.png` in the `IMAGE/` folder. The app will prefer `HHS-logo.png` when rendering the header.
 
 ## What the app shows
 

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="24" fill="#1f2937" />
+  <circle cx="60" cy="44" r="18" fill="#8ecae6" />
+  <path d="M28 84 C42 60, 78 60, 92 84" stroke="#f6e58d" stroke-width="10" fill="none" stroke-linecap="round" />
+  <text x="60" y="108" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">HHS CARE</text>
+</svg>
