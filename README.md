@@ -25,6 +25,8 @@ This repository contains a Streamlit dashboard for exploring care-transition and
    - Copy [.env.example](.env.example) to [.env](.env) and update any local values you need.
    - The app does not require secrets to run locally, but this keeps private settings out of the repository.
 
+Logo: place a PNG logo named `logo.png` at the repository root or in an `assets/` folder. The app will prefer `logo.png` when rendering the header.
+
 ## What the app shows
 
 - KPI cards for transfer efficiency, discharge rate, throughput, and backlog pressure

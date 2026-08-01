@@ -126,9 +126,7 @@ def build_dashboard(df: pd.DataFrame) -> None:
     logo_candidates = [
         repo_root / "Screenshot 2026-07-11 181430.png",
         repo_root / "logo.png",
-        repo_root / "logo.svg",
         repo_root / "assets" / "logo.png",
-        repo_root / "assets" / "logo.svg",
     ]
     logo_path = next((path for path in logo_candidates if path.exists()), None)
 
