@@ -7,3 +7,6 @@ https://app.powerbi.com/groups/me/reports/207feff0-ecbb-4e66-8237-c51e8d901ba4/1
 
 # Power BI Insights: 
 https://app.powerbi.com/groups/me/insights/42d2aa47-a83c-4469-8433-0b6442f9b7fc?insightsSource=Desktop&experience=power-bi
+
+# Publish
+https://github.com/Sampulers/HHS-Care-Transition-Efficiency-Placement-Outcome-Analytics/releases/tag/v1.0.0
